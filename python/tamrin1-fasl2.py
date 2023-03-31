@@ -1,8 +1,6 @@
 from random import randint
 
-s = input()
-v = int(s)
-d = randint(0, v)
+d = randint(0, 100)
 
 
 def odd_or_even(x):
